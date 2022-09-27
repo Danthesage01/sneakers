@@ -46,7 +46,7 @@ const Wrapper = styled.article`
   display: grid;
   grid-template-columns: 200px auto auto;
   grid-template-rows: 75px;
-  gap: 3rem 1rem;
+  gap: 3rem .5rem;
   justify-items: center;
   margin-bottom: 3rem;
   align-items: center;
@@ -112,13 +112,13 @@ const Wrapper = styled.article`
     border: transparent;
     letter-spacing: var(--spacing);
     background: var(--clr-red-dark);
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: var(--radius);
-    font-size: 0.75rem;
+    font-size: 0.70rem;
     cursor: pointer;
   }
   @media (min-width: 776px) {
