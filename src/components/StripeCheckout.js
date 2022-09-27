@@ -285,7 +285,7 @@ const Wrapper = styled.section`
   }
   .success-logo{
     border: 2px green solid;
-    padding: 1rem;
+    padding: .2rem;
   }
 `
 export default StripeCheckout
