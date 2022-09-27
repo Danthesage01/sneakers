@@ -16,7 +16,7 @@ const AmountButtons = ({ amount, increase, decrease }) => {
 
 const Wrapper = styled.div`
   display: grid;
-  width: 140px;
+  width: 120px;
   justify-items: center;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
@@ -40,5 +40,8 @@ const Wrapper = styled.div`
   h2 {
     margin-bottom: 0;
   }
+@media (min-width: 776px) {
+  width: 140px;
+    }
 `
 export default AmountButtons
