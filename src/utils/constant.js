@@ -19,4 +19,6 @@ export const links = [
   }
 ]
 
-export const URL = "https://fake-shoevendor.herokuapp.com/sneakers/"
+// export const URL = "https://fake-shoevendor.herokuapp.com/sneakers/"
+export const URL = "https://restfapi.netlify.app/api/allsneakers";
+export const SPURL = "https://restfapi.netlify.app/api/allsneakers?id=";

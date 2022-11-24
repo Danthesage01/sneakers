@@ -1,19 +1,19 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
 
-const ProductImages = ({ subImages = [{ url: "https://thesageconcepts.com/wp-content/uploads/2022/09/allstar3.jpg" }] }) => {
- const [main, setMain] = useState(subImages[0])
+const ProductImages = ({ images = [{ url: "https://thesageconcepts.com/wp-content/uploads/2022/09/allstar3.jpg" }] }) => {
+ const [main, setMain] = useState(images[0])
 
  return (
   <Wrapper>
    <img src={main.url} alt="main" className="main" />
     <div className="gallery">
-     {subImages.map((image, index) => {
+     {images.map((image, index) => {
       return (
        <img src={image.url}
         key={index}
         alt="extra"
-        onClick={() => setMain(subImages[index])}
+        onClick={() => setMain(images[index])}
         className={main.id === image.id ? "active img" : "img"}
        />
       )
